@@ -1,0 +1,30 @@
+{
+  "name": "xvideos-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "busboy": "^0.3.1",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "~4.16.1",
+    "express-jwt": "^6.1.0",
+    "express-unless": "^1.0.0",
+    "faker": "^5.5.3",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.5",
+    "morgan": "~1.9.1",
+    "nanoid": "^3.1.30",
+    "redis": "^3.1.2",
+    "shelljs": "^0.8.4",
+    "shortid": "^2.2.16",
+    "uuid": "^8.3.2"
+  }
+}
